@@ -29,3 +29,6 @@ Demonstrate volume mounting
 Step 7:
 Introducing docker-compose
 `docker-compose up`
+
+Step 8:
+Build a docker image for the exponent service, and call it as `docker-exponent`

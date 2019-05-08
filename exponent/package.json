@@ -1,0 +1,14 @@
+{
+  "name": "exponent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Qim Lee",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
