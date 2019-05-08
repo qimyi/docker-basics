@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  greeter:
+    image: docker-basic:v1.0.2
+    ports:
+      - 80:3100
+    environment:
+      - USERNAME=yourname
