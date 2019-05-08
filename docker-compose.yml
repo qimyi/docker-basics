@@ -1,8 +1,15 @@
 version: '3.2'
 services:
   greeter:
-    image: docker-basic:v1.0.2
+    image: docker-basic:v1.0.3
     ports:
       - 80:3100
     environment:
       - USERNAME=yourname
+      - EXPO_URL=http://exponent:3200
+  exponent:
+    image: docker-exponent
+    ports:
+      - 3200:3200
+    environment:
+      - PORT=3200
