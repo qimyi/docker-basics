@@ -18,3 +18,6 @@ Step 4:
 Rebuild `docker build -t docker-basic .` and run again
 Demonstrate tags, environment, run different images, detached mode
 `docker run -t --name my-useless-server -p 80:3100 -e USERNAME=yourname docker-basic -d`
+
+Step 5:
+Logs, attaching, exec
