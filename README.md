@@ -3,3 +3,6 @@ Docker basic examples
 
 Step 1:
 Create a simple nodeJS express server. `yarn start`
+
+Step 2:
+Containerise `docker build -t docker-basic .`
