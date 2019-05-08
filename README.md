@@ -35,3 +35,6 @@ Build a docker image for the exponent service, and call it as `docker-exponent`
 
 Step 9:
 Demonstrate service name addressing
+
+Step 10: 
+Profit $$$
