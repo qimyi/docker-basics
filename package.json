@@ -1,0 +1,16 @@
+{
+  "name": "docker-basics",
+  "version": "1.0.0",
+  "description": "Docker basic examples",
+  "main": "index.js",
+  "repository": "git@github.com:qimyi/docker-basics.git",
+  "author": "Qim Lee <qim.lee@pwc.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
